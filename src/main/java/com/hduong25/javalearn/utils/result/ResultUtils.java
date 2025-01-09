@@ -1,17 +1,17 @@
-package com.hduong25.javalearn.utils.response;
+package com.hduong25.javalearn.utils.result;
 
 import com.hduong25.javalearn.utils.constants.AppConstants;
 import com.hduong25.javalearn.utils.constants.HttpStatusConstants;
-import com.hduong25.javalearn.utils.enums.BaseEnumResponseCode;
-import com.hduong25.javalearn.utils.enums.ErrorResponse;
+import com.hduong25.javalearn.utils.response.BaseEnumResponseCode;
+import com.hduong25.javalearn.utils.response.ErrorResponse;
 
 /**
  * @author: hduong25
  */
 
-public class ResponseUtils {
+public class ResultUtils {
 
-    private ResponseUtils() {
+    private ResultUtils() {
     }
 
     // Success

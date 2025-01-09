@@ -1,4 +1,4 @@
-package com.hduong25.javalearn.utils.enums;
+package com.hduong25.javalearn.utils.response;
 
 import lombok.AllArgsConstructor;
 

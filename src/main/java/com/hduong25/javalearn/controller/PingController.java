@@ -1,7 +1,7 @@
 package com.hduong25.javalearn.controller;
 
 import com.hduong25.javalearn.service.PingService;
-import com.hduong25.javalearn.utils.response.Result;
+import com.hduong25.javalearn.utils.result.Result;
 import lombok.RequiredArgsConstructor;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.PostMapping;

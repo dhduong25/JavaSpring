@@ -1,4 +1,4 @@
-package com.hduong25.javalearn.utils.response;
+package com.hduong25.javalearn.utils.result;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
