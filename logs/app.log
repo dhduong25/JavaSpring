@@ -1,0 +1,1294 @@
+2025-01-10 00:53:04 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Starting JavaLearnApplication using Java 21.0.4 with PID 6565 (/Volumes/hduong25/Study/Java/java-learn/target/classes started by hongduongdo in /Volumes/hduong25/Study/Java/java-learn)
+2025-01-10 00:53:04 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - The following 1 profile is active: "dev"
+2025-01-10 00:53:04 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-10 00:53:04 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2025-01-10 00:53:05 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 3000 (http)
+2025-01-10 00:53:05 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2025-01-10 00:53:05 [] INFO 
+                    o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-10 00:53:05 [] INFO 
+                    o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-10 00:53:05 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-01-10 00:53:05 [] INFO 
+                    o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 632 ms
+2025-01-10 00:53:05 [] INFO 
+                    o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-10 00:53:05 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Starting...
+2025-01-10 00:53:05 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Start completed.
+2025-01-10 00:53:05 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 00:53:05 [] WARN 
+                    o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-10 00:53:06 [] INFO 
+                    o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-10 00:53:07 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2025-01-10 00:53:07 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 3000 (http) with context path '/api/v1'
+2025-01-10 00:53:07 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Started JavaLearnApplication in 2.843 seconds (process running for 3.064)
+2025-01-10 00:53:07 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-10 00:53:07 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-10 00:53:07 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-10 00:53:54 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-10 00:53:54 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-10 00:53:54 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 00:53:54 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown initiated...
+2025-01-10 00:53:54 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown completed.
+2025-01-10 00:54:13 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Starting JavaLearnApplication using Java 21.0.4 with PID 6590 (/Volumes/hduong25/Study/Java/java-learn/target/classes started by hongduongdo in /Volumes/hduong25/Study/Java/java-learn)
+2025-01-10 00:54:13 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - The following 1 profile is active: "dev"
+2025-01-10 00:54:13 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-10 00:54:13 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2025-01-10 00:54:14 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 3000 (http)
+2025-01-10 00:54:14 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2025-01-10 00:54:14 [] INFO 
+                    o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-10 00:54:14 [] INFO 
+                    o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-10 00:54:14 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-01-10 00:54:14 [] INFO 
+                    o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 656 ms
+2025-01-10 00:54:14 [] INFO 
+                    o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-10 00:54:14 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Starting...
+2025-01-10 00:54:14 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Start completed.
+2025-01-10 00:54:14 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 00:54:14 [] WARN 
+                    o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-10 00:54:15 [] INFO 
+                    o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-10 00:54:15 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2025-01-10 00:54:15 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 3000 (http) with context path '/api/v1'
+2025-01-10 00:54:16 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Started JavaLearnApplication in 2.662 seconds (process running for 2.885)
+2025-01-10 00:54:16 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-10 00:54:16 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-10 00:54:16 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-10 00:55:07 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-10 00:55:07 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-10 00:55:07 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 00:55:07 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown initiated...
+2025-01-10 00:55:07 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown completed.
+2025-01-10 00:55:09 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Starting JavaLearnApplication using Java 21.0.4 with PID 6622 (/Volumes/hduong25/Study/Java/java-learn/target/classes started by hongduongdo in /Volumes/hduong25/Study/Java/java-learn)
+2025-01-10 00:55:09 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - The following 1 profile is active: "dev"
+2025-01-10 00:55:09 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-10 00:55:09 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2025-01-10 00:55:09 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 3000 (http)
+2025-01-10 00:55:09 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2025-01-10 00:55:09 [] INFO 
+                    o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-10 00:55:09 [] INFO 
+                    o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-10 00:55:09 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-01-10 00:55:09 [] INFO 
+                    o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 666 ms
+2025-01-10 00:55:09 [] INFO 
+                    o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-10 00:55:10 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Starting...
+2025-01-10 00:55:10 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Start completed.
+2025-01-10 00:55:10 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 00:55:10 [] WARN 
+                    o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-10 00:55:10 [] INFO 
+                    o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-10 00:55:11 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2025-01-10 00:55:11 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 3000 (http) with context path '/api/v1'
+2025-01-10 00:55:11 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Started JavaLearnApplication in 3.055 seconds (process running for 3.276)
+2025-01-10 00:55:12 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-10 00:55:12 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-10 00:55:12 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-10 00:55:55 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-10 00:55:56 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-10 00:55:56 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 00:55:56 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown initiated...
+2025-01-10 00:55:56 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown completed.
+2025-01-10 00:55:57 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Starting JavaLearnApplication using Java 21.0.4 with PID 6637 (/Volumes/hduong25/Study/Java/java-learn/target/classes started by hongduongdo in /Volumes/hduong25/Study/Java/java-learn)
+2025-01-10 00:55:57 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - The following 1 profile is active: "dev"
+2025-01-10 00:55:57 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-10 00:55:57 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2025-01-10 00:55:57 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 3000 (http)
+2025-01-10 00:55:57 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2025-01-10 00:55:57 [] INFO 
+                    o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-10 00:55:57 [] INFO 
+                    o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-10 00:55:57 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-01-10 00:55:57 [] INFO 
+                    o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 665 ms
+2025-01-10 00:55:58 [] INFO 
+                    o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-10 00:55:58 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Starting...
+2025-01-10 00:55:58 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Start completed.
+2025-01-10 00:55:58 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 00:55:58 [] WARN 
+                    o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-10 00:55:58 [] INFO 
+                    o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-10 00:55:59 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2025-01-10 00:55:59 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 3000 (http) with context path '/api/v1'
+2025-01-10 00:55:59 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Started JavaLearnApplication in 2.136 seconds (process running for 2.356)
+2025-01-10 00:55:59 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-10 00:55:59 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-10 00:55:59 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-10 00:56:05 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-10 00:56:05 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-10 00:56:05 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 00:56:05 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown initiated...
+2025-01-10 00:56:05 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown completed.
+2025-01-10 00:56:06 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Starting JavaLearnApplication using Java 21.0.4 with PID 6646 (/Volumes/hduong25/Study/Java/java-learn/target/classes started by hongduongdo in /Volumes/hduong25/Study/Java/java-learn)
+2025-01-10 00:56:06 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - The following 1 profile is active: "dev"
+2025-01-10 00:56:07 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-10 00:56:07 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2025-01-10 00:56:07 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 3000 (http)
+2025-01-10 00:56:07 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2025-01-10 00:56:07 [] INFO 
+                    o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-10 00:56:07 [] INFO 
+                    o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-10 00:56:07 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-01-10 00:56:07 [] INFO 
+                    o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 657 ms
+2025-01-10 00:56:07 [] INFO 
+                    o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-10 00:56:07 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Starting...
+2025-01-10 00:56:07 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Start completed.
+2025-01-10 00:56:08 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 00:56:08 [] WARN 
+                    o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-10 00:56:08 [] INFO 
+                    o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-10 00:56:08 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2025-01-10 00:56:08 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 3000 (http) with context path '/api/v1'
+2025-01-10 00:56:08 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Started JavaLearnApplication in 2.108 seconds (process running for 2.335)
+2025-01-10 00:56:09 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-10 00:56:09 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-10 00:56:09 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-10 00:56:22 [] INFO 
+                    c.hduong25.javalearn.LoggingAspect - REQUEST [4c815904-2313-48ef-8309-631ff015440a] POST /api/v1/ping: {"headers":{"content-length":"12","postman-token":"d6c3db70-1756-4dfc-94de-a3cb104fe050","host":"127.0.0.1:3000","content-type":"application/json","connection":"keep-alive","cache-control":"no-cache","accept-encoding":"gzip, deflate, br","user-agent":"PostmanRuntime/7.43.0","accept":"*/*"},"body":"{\n\t\"a\": \"\"\n}","parameters":{}}
+2025-01-10 00:56:22 [] INFO 
+                    c.hduong25.javalearn.LoggingAspect - RESPONSE [4c815904-2313-48ef-8309-631ff015440a] (1 ms): {"status":200,"code":"000","message":"SUCCESS","error":null,"data":"Pong!!!"}
+2025-01-10 01:09:44 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-10 01:09:44 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-10 01:09:44 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 01:09:44 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown initiated...
+2025-01-10 01:09:44 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown completed.
+2025-01-10 01:09:46 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Starting JavaLearnApplication using Java 21.0.4 with PID 6845 (/Volumes/hduong25/Study/Java/java-learn/target/classes started by hongduongdo in /Volumes/hduong25/Study/Java/java-learn)
+2025-01-10 01:09:46 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - The following 1 profile is active: "dev"
+2025-01-10 01:09:46 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-10 01:09:46 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2025-01-10 01:09:46 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 3000 (http)
+2025-01-10 01:09:46 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2025-01-10 01:09:46 [] INFO 
+                    o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-10 01:09:46 [] INFO 
+                    o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-10 01:09:46 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-01-10 01:09:46 [] INFO 
+                    o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 651 ms
+2025-01-10 01:09:47 [] INFO 
+                    o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-10 01:09:47 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Starting...
+2025-01-10 01:09:47 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Start completed.
+2025-01-10 01:09:47 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 01:09:47 [] WARN 
+                    o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-10 01:09:47 [] INFO 
+                    o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-10 01:09:48 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2025-01-10 01:09:48 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 3000 (http) with context path '/api/v1'
+2025-01-10 01:09:48 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Started JavaLearnApplication in 2.883 seconds (process running for 3.106)
+2025-01-10 01:09:49 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-10 01:09:49 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-10 01:09:49 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-10 01:09:54 [] INFO 
+                    c.hduong25.javalearn.LoggingAspect - REQUEST [67c4cc06-19de-4fb2-8d9a-958169e802e5] POST /api/v1/ping: {headers={content-length=12, postman-token=279fcd0a-b60a-4d49-90ae-4930251ab377, host=127.0.0.1:3000, content-type=application/json, connection=keep-alive, cache-control=no-cache, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.43.0, accept=*/*}, body={
+	"a": ""
+}, parameters=org.apache.catalina.util.ParameterMap@31e1f97b}
+2025-01-10 01:09:54 [] INFO 
+                    c.hduong25.javalearn.LoggingAspect - RESPONSE [67c4cc06-19de-4fb2-8d9a-958169e802e5] (1 ms): {"status":200,"code":"000","message":"SUCCESS","error":null,"data":"Pong!!!"}
+2025-01-10 01:10:05 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-10 01:10:05 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-10 01:10:05 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 01:10:05 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown initiated...
+2025-01-10 01:10:05 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown completed.
+2025-01-10 01:10:07 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Starting JavaLearnApplication using Java 21.0.4 with PID 6862 (/Volumes/hduong25/Study/Java/java-learn/target/classes started by hongduongdo in /Volumes/hduong25/Study/Java/java-learn)
+2025-01-10 01:10:07 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - The following 1 profile is active: "dev"
+2025-01-10 01:10:07 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-10 01:10:07 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2025-01-10 01:10:07 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 3000 (http)
+2025-01-10 01:10:07 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2025-01-10 01:10:07 [] INFO 
+                    o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-10 01:10:07 [] INFO 
+                    o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-10 01:10:07 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-01-10 01:10:07 [] INFO 
+                    o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 662 ms
+2025-01-10 01:10:08 [] INFO 
+                    o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-10 01:10:08 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Starting...
+2025-01-10 01:10:08 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Start completed.
+2025-01-10 01:10:08 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 01:10:08 [] WARN 
+                    o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-10 01:10:08 [] INFO 
+                    o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-10 01:10:09 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2025-01-10 01:10:09 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 3000 (http) with context path '/api/v1'
+2025-01-10 01:10:09 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Started JavaLearnApplication in 2.758 seconds (process running for 3.01)
+2025-01-10 01:10:09 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-10 01:10:09 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-10 01:10:09 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-10 01:10:11 [] INFO 
+                    c.hduong25.javalearn.LoggingAspect - REQUEST [cafc7caf-9193-44f3-a4aa-e17c3d063ee6] POST /api/v1/ping: {headers={content-length=12, postman-token=af55d14a-368d-484c-9bee-b011152e2a86, host=127.0.0.1:3000, content-type=application/json, connection=keep-alive, cache-control=no-cache, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.43.0, accept=*/*}, body={
+	"a": ""
+}, parameters=org.apache.catalina.util.ParameterMap@7bde249e}
+2025-01-10 01:10:11 [] INFO 
+                    c.hduong25.javalearn.LoggingAspect - RESPONSE [cafc7caf-9193-44f3-a4aa-e17c3d063ee6] (0 ms): {"status":200,"code":"000","message":"SUCCESS","error":null,"data":"Pong!!!"}
+2025-01-10 01:11:07 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-10 01:11:07 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-10 01:11:07 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 01:11:07 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown initiated...
+2025-01-10 01:11:07 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown completed.
+2025-01-10 01:11:09 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Starting JavaLearnApplication using Java 21.0.4 with PID 6889 (/Volumes/hduong25/Study/Java/java-learn/target/classes started by hongduongdo in /Volumes/hduong25/Study/Java/java-learn)
+2025-01-10 01:11:09 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - The following 1 profile is active: "dev"
+2025-01-10 01:11:09 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-10 01:11:09 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2025-01-10 01:11:10 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 3000 (http)
+2025-01-10 01:11:10 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2025-01-10 01:11:10 [] INFO 
+                    o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-10 01:11:10 [] INFO 
+                    o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-10 01:11:10 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-01-10 01:11:10 [] INFO 
+                    o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 657 ms
+2025-01-10 01:11:10 [] INFO 
+                    o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-10 01:11:10 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Starting...
+2025-01-10 01:11:10 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Start completed.
+2025-01-10 01:11:10 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 01:11:10 [] WARN 
+                    o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-10 01:11:11 [] INFO 
+                    o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-10 01:11:13 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2025-01-10 01:11:13 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 3000 (http) with context path '/api/v1'
+2025-01-10 01:11:13 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Started JavaLearnApplication in 4.352 seconds (process running for 4.58)
+2025-01-10 01:11:14 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-10 01:11:14 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-10 01:11:14 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-10 01:11:15 [] INFO 
+                    c.hduong25.javalearn.LoggingAspect - REQUEST [06854a43-85e3-4e0b-9fc4-876faae94d89] POST /api/v1/ping: {"headers":{"content-length":"12","postman-token":"2570e6b7-38ce-4be3-87d6-92e5daf5c9e9","host":"127.0.0.1:3000","content-type":"application/json","connection":"keep-alive","cache-control":"no-cache","accept-encoding":"gzip, deflate, br","user-agent":"PostmanRuntime/7.43.0","accept":"*/*"},"body":"{\n\t\"a\": \"\"\n}","parameters":{}}
+2025-01-10 01:11:15 [] INFO 
+                    c.hduong25.javalearn.LoggingAspect - RESPONSE [06854a43-85e3-4e0b-9fc4-876faae94d89] (0 ms): {"status":200,"code":"000","message":"SUCCESS","error":null,"data":"Pong!!!"}
+2025-01-10 01:11:48 [] INFO 
+                    c.hduong25.javalearn.LoggingAspect - REQUEST [97162c78-ef8a-4d33-9caa-8427ff0616ea] POST /api/v1/ping: {"headers":{"content-length":"12","postman-token":"2f36168b-4761-40f2-8b8f-bff55f4eb26e","host":"127.0.0.1:3000","content-type":"application/json","connection":"keep-alive","cache-control":"no-cache","accept-encoding":"gzip, deflate, br","user-agent":"PostmanRuntime/7.43.0","accept":"*/*"},"body":"{\n\t\"a\": \"\"\n}","parameters":{}}
+2025-01-10 01:11:48 [] INFO 
+                    c.hduong25.javalearn.LoggingAspect - RESPONSE [97162c78-ef8a-4d33-9caa-8427ff0616ea] (0 ms): {"status":200,"code":"000","message":"SUCCESS","error":null,"data":"Pong!!!"}
+2025-01-10 02:38:12 [] WARN 
+                    com.zaxxer.hikari.pool.HikariPool - DatabasePool - Thread starvation or clock leap detected (housekeeper delta=1h24m1s655ms).
+2025-01-10 04:05:05 [] WARN 
+                    com.zaxxer.hikari.pool.HikariPool - DatabasePool - Thread starvation or clock leap detected (housekeeper delta=1h26m52s716ms).
+2025-01-10 04:57:41 [] WARN 
+                    com.zaxxer.hikari.pool.HikariPool - DatabasePool - Thread starvation or clock leap detected (housekeeper delta=52m36s94ms).
+2025-01-10 06:06:35 [] WARN 
+                    com.zaxxer.hikari.pool.HikariPool - DatabasePool - Thread starvation or clock leap detected (housekeeper delta=1h8m53s969ms).
+2025-01-10 07:12:22 [] WARN 
+                    com.zaxxer.hikari.pool.HikariPool - DatabasePool - Thread starvation or clock leap detected (housekeeper delta=1h5m47s35ms).
+2025-01-10 08:07:12 [] WARN 
+                    com.zaxxer.hikari.pool.HikariPool - DatabasePool - Thread starvation or clock leap detected (housekeeper delta=54m50s482ms).
+2025-01-10 09:09:08 [] WARN 
+                    com.zaxxer.hikari.pool.HikariPool - DatabasePool - Thread starvation or clock leap detected (housekeeper delta=1h1m56s45ms).
+2025-01-10 09:25:01 [] WARN 
+                    com.zaxxer.hikari.pool.HikariPool - DatabasePool - Thread starvation or clock leap detected (housekeeper delta=15m52s645ms).
+2025-01-10 09:40:47 [] WARN 
+                    com.zaxxer.hikari.pool.HikariPool - DatabasePool - Thread starvation or clock leap detected (housekeeper delta=12m46s310ms).
+2025-01-10 10:13:26 [] WARN 
+                    com.zaxxer.hikari.pool.HikariPool - DatabasePool - Thread starvation or clock leap detected (housekeeper delta=32m38s679ms).
+2025-01-10 10:54:50 [] WARN 
+                    com.zaxxer.hikari.pool.HikariPool - DatabasePool - Thread starvation or clock leap detected (housekeeper delta=40m14s292ms).
+2025-01-10 11:58:06 [] WARN 
+                    com.zaxxer.hikari.pool.HikariPool - DatabasePool - Thread starvation or clock leap detected (housekeeper delta=1h3m15s545ms).
+2025-01-10 13:16:40 [] WARN 
+                    com.zaxxer.hikari.pool.HikariPool - DatabasePool - Thread starvation or clock leap detected (housekeeper delta=1h18m34s42ms).
+2025-01-10 14:02:09 [] WARN 
+                    com.zaxxer.hikari.pool.HikariPool - DatabasePool - Thread starvation or clock leap detected (housekeeper delta=45m29s265ms).
+2025-01-10 14:12:06 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-10 14:12:06 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-10 14:12:06 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 14:12:06 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown initiated...
+2025-01-10 14:12:06 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown completed.
+2025-01-10 19:47:47 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Starting JavaLearnApplication using Java 21.0.4 with PID 13208 (/Volumes/hduong25/Study/Java/java-learn/target/classes started by hongduongdo in /Volumes/hduong25/Study/Java/java-learn)
+2025-01-10 19:47:47 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - The following 1 profile is active: "dev"
+2025-01-10 19:47:47 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-10 19:47:47 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2025-01-10 19:47:47 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 3000 (http)
+2025-01-10 19:47:47 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2025-01-10 19:47:47 [] INFO 
+                    o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-10 19:47:47 [] INFO 
+                    o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-10 19:47:47 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-01-10 19:47:47 [] INFO 
+                    o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 753 ms
+2025-01-10 19:47:48 [] INFO 
+                    o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-10 19:47:48 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Starting...
+2025-01-10 19:47:48 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Start completed.
+2025-01-10 19:47:48 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 19:47:48 [] WARN 
+                    o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-10 19:47:49 [] INFO 
+                    o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-10 19:47:49 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2025-01-10 19:47:49 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 3000 (http) with context path '/api/v1'
+2025-01-10 19:47:49 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Started JavaLearnApplication in 2.568 seconds (process running for 2.828)
+2025-01-10 19:47:49 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-10 19:47:49 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-10 19:47:49 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-10 19:48:07 [] INFO 
+                    c.h.j.config.LoggingRequestConfig - REQUEST [8ddc53b6-5866-4d99-b006-78cae3095a46] POST /api/v1/ping: {"headers":{"content-length":"12","postman-token":"3b89f001-cdbb-4b13-b480-a7f1f6250c0e","host":"127.0.0.1:3000","content-type":"application/json","connection":"keep-alive","cache-control":"no-cache","accept-encoding":"gzip, deflate, br","user-agent":"PostmanRuntime/7.43.0","accept":"*/*"},"body":"{\n\t\"a\": \"\"\n}","parameters":{}}
+2025-01-10 19:48:07 [] INFO 
+                    c.h.j.config.LoggingRequestConfig - RESPONSE [8ddc53b6-5866-4d99-b006-78cae3095a46] (0 ms): {"status":200,"code":"000","message":"SUCCESS","error":null,"data":"Pong!!!"}
+2025-01-10 19:49:32 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-10 19:49:32 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-10 19:49:32 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 19:49:32 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown initiated...
+2025-01-10 19:49:32 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown completed.
+2025-01-10 19:49:33 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Starting JavaLearnApplication using Java 21.0.4 with PID 13260 (/Volumes/hduong25/Study/Java/java-learn/target/classes started by hongduongdo in /Volumes/hduong25/Study/Java/java-learn)
+2025-01-10 19:49:33 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - The following 1 profile is active: "dev"
+2025-01-10 19:49:34 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-10 19:49:34 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2025-01-10 19:49:34 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 3000 (http)
+2025-01-10 19:49:34 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2025-01-10 19:49:34 [] INFO 
+                    o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-10 19:49:34 [] INFO 
+                    o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-10 19:49:34 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-01-10 19:49:34 [] INFO 
+                    o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 752 ms
+2025-01-10 19:49:35 [] INFO 
+                    o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-10 19:49:35 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Starting...
+2025-01-10 19:49:35 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Start completed.
+2025-01-10 19:49:35 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 19:49:35 [] WARN 
+                    o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-10 19:49:35 [] INFO 
+                    o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-10 19:49:36 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2025-01-10 19:49:36 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 3000 (http) with context path '/api/v1'
+2025-01-10 19:49:36 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Started JavaLearnApplication in 2.521 seconds (process running for 2.765)
+2025-01-10 19:49:36 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-10 19:49:36 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-10 19:49:36 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-10 19:49:40 [] INFO 
+                    c.h.j.config.LoggingRequestConfig - REQUEST [7f957020-f390-4eb1-a19c-1e962d2d1c92] POST /api/v1/ping: {"headers":{"content-length":"12","postman-token":"efaed9e8-4e43-4ce5-9729-d9272afabc93","host":"127.0.0.1:3000","content-type":"application/json","connection":"keep-alive","cache-control":"no-cache","accept-encoding":"gzip, deflate, br","user-agent":"PostmanRuntime/7.43.0","accept":"*/*"},"body":"{\n  \"a\" : \"\"\n}","parameters":{}}
+2025-01-10 19:49:40 [] INFO 
+                    c.h.j.config.LoggingRequestConfig - RESPONSE [7f957020-f390-4eb1-a19c-1e962d2d1c92] (0 ms): {"status":200,"code":"000","message":"SUCCESS","error":null,"data":"Pong!!!"}
+2025-01-10 19:50:39 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-10 19:50:39 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-10 19:50:39 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 19:50:39 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown initiated...
+2025-01-10 19:50:39 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown completed.
+2025-01-10 19:50:41 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Starting JavaLearnApplication using Java 21.0.4 with PID 13292 (/Volumes/hduong25/Study/Java/java-learn/target/classes started by hongduongdo in /Volumes/hduong25/Study/Java/java-learn)
+2025-01-10 19:50:41 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - The following 1 profile is active: "dev"
+2025-01-10 19:50:41 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-10 19:50:41 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2025-01-10 19:50:41 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 3000 (http)
+2025-01-10 19:50:41 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2025-01-10 19:50:41 [] INFO 
+                    o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-10 19:50:41 [] INFO 
+                    o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-10 19:50:41 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-01-10 19:50:41 [] INFO 
+                    o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 729 ms
+2025-01-10 19:50:42 [] INFO 
+                    o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-10 19:50:42 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Starting...
+2025-01-10 19:50:42 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Start completed.
+2025-01-10 19:50:42 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 19:50:42 [] WARN 
+                    o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-10 19:50:43 [] INFO 
+                    o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-10 19:50:43 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2025-01-10 19:50:43 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 3000 (http) with context path '/api/v1'
+2025-01-10 19:50:43 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Started JavaLearnApplication in 2.486 seconds (process running for 2.717)
+2025-01-10 19:50:43 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-10 19:50:43 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-10 19:50:43 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-01-10 19:50:52 [] INFO 
+                    c.h.j.config.LoggingRequestConfig - REQUEST [b9dca9ca-0d68-4922-8f0e-b70e01989c24] POST /api/v1/ping Headers: {"content-length":"12","postman-token":"e2d008a3-c499-4a3f-9360-4bd14ff22f01","host":"127.0.0.1:3000","content-type":"application/json","connection":"keep-alive","cache-control":"no-cache","accept-encoding":"gzip, deflate, br","user-agent":"PostmanRuntime/7.43.0","accept":"*/*"} Parameters: {} Body: {
+  "a" : ""
+}
+2025-01-10 19:50:52 [] INFO 
+                    c.h.j.config.LoggingRequestConfig - RESPONSE [b9dca9ca-0d68-4922-8f0e-b70e01989c24] (1 ms): {"status":200,"code":"000","message":"SUCCESS","error":null,"data":"Pong!!!"}
+2025-01-10 19:53:53 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-10 19:53:53 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-10 19:53:53 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 19:53:53 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown initiated...
+2025-01-10 19:53:53 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown completed.
+2025-01-10 19:53:55 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Starting JavaLearnApplication using Java 21.0.4 with PID 13350 (/Volumes/hduong25/Study/Java/java-learn/target/classes started by hongduongdo in /Volumes/hduong25/Study/Java/java-learn)
+2025-01-10 19:53:55 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - The following 1 profile is active: "dev"
+2025-01-10 19:53:55 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-10 19:53:55 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2025-01-10 19:53:55 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 3000 (http)
+2025-01-10 19:53:55 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2025-01-10 19:53:55 [] INFO 
+                    o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-10 19:53:55 [] INFO 
+                    o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-10 19:53:55 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-01-10 19:53:55 [] INFO 
+                    o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 704 ms
+2025-01-10 19:53:56 [] INFO 
+                    o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-10 19:53:56 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Starting...
+2025-01-10 19:53:56 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Start completed.
+2025-01-10 19:53:56 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 19:53:56 [] WARN 
+                    o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-10 19:53:57 [] INFO 
+                    o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-10 19:53:57 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2025-01-10 19:53:57 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 3000 (http) with context path '/api/v1'
+2025-01-10 19:53:57 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Started JavaLearnApplication in 2.49 seconds (process running for 2.722)
+2025-01-10 19:53:57 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-10 19:53:57 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-10 19:53:57 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-10 19:54:01 [] INFO 
+                    c.h.j.config.LoggingRequestConfig - REQUEST [20808b48-7d29-449b-81f1-68f55b8833eb] POST /api/v1/ping
+- Headers: {"content-length":"12","postman-token":"87803f98-045e-48b2-99c1-83bed5a403f4","host":"127.0.0.1:3000","content-type":"application/json","connection":"keep-alive","cache-control":"no-cache","accept-encoding":"gzip, deflate, br","user-agent":"PostmanRuntime/7.43.0","accept":"*/*"}
+- Parameters: {}
+- Body: {
+  "a" : ""
+}
+2025-01-10 19:54:01 [] INFO 
+                    c.h.j.config.LoggingRequestConfig - RESPONSE [20808b48-7d29-449b-81f1-68f55b8833eb] (1 ms): {"status":200,"code":"000","message":"SUCCESS","error":null,"data":"Pong!!!"}
+2025-01-10 19:55:51 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-10 19:55:51 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-10 19:55:51 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 19:55:51 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown initiated...
+2025-01-10 19:55:51 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown completed.
+2025-01-10 19:55:53 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Starting JavaLearnApplication using Java 21.0.4 with PID 13385 (/Volumes/hduong25/Study/Java/java-learn/target/classes started by hongduongdo in /Volumes/hduong25/Study/Java/java-learn)
+2025-01-10 19:55:53 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - The following 1 profile is active: "dev"
+2025-01-10 19:55:53 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-10 19:55:53 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2025-01-10 19:55:53 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 3000 (http)
+2025-01-10 19:55:53 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2025-01-10 19:55:53 [] INFO 
+                    o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-10 19:55:53 [] INFO 
+                    o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-10 19:55:53 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-01-10 19:55:53 [] INFO 
+                    o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 688 ms
+2025-01-10 19:55:54 [] INFO 
+                    o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-10 19:55:54 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Starting...
+2025-01-10 19:55:54 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Start completed.
+2025-01-10 19:55:54 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 19:55:54 [] WARN 
+                    o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-10 19:55:54 [] INFO 
+                    o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-10 19:55:55 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2025-01-10 19:55:55 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 3000 (http) with context path '/api/v1'
+2025-01-10 19:55:55 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Started JavaLearnApplication in 2.494 seconds (process running for 2.738)
+2025-01-10 19:55:55 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-10 19:55:55 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-10 19:55:55 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-10 19:55:59 [] INFO 
+                    c.h.j.config.LoggingRequestConfig - REQUEST [697999ae-8436-4e19-859c-c67e5ef979fa] POST /api/v1/ping
+- Headers: {"content-length":"12","postman-token":"10e187fd-0774-4c36-b6c4-a9554e5341e6","host":"127.0.0.1:3000","content-type":"application/json","connection":"keep-alive","cache-control":"no-cache","accept-encoding":"gzip, deflate, br","user-agent":"PostmanRuntime/7.43.0","accept":"*/*"}
+- Parameters: {}
+- Body: {
+	"a": ""
+}
+2025-01-10 19:55:59 [] INFO 
+                    c.h.j.config.LoggingRequestConfig - RESPONSE [697999ae-8436-4e19-859c-c67e5ef979fa] (1 ms): {"status":200,"code":"000","message":"SUCCESS","error":null,"data":"Pong!!!"}
+2025-01-10 19:56:42 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-10 19:56:42 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-10 19:56:42 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 19:56:42 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown initiated...
+2025-01-10 19:56:42 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown completed.
+2025-01-10 19:56:43 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Starting JavaLearnApplication using Java 21.0.4 with PID 13402 (/Volumes/hduong25/Study/Java/java-learn/target/classes started by hongduongdo in /Volumes/hduong25/Study/Java/java-learn)
+2025-01-10 19:56:43 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - The following 1 profile is active: "dev"
+2025-01-10 19:56:44 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-10 19:56:44 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2025-01-10 19:56:44 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 3000 (http)
+2025-01-10 19:56:44 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2025-01-10 19:56:44 [] INFO 
+                    o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-10 19:56:44 [] INFO 
+                    o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-10 19:56:44 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-01-10 19:56:44 [] INFO 
+                    o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 698 ms
+2025-01-10 19:56:44 [] INFO 
+                    o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-10 19:56:44 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Starting...
+2025-01-10 19:56:44 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Start completed.
+2025-01-10 19:56:45 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 19:56:45 [] WARN 
+                    o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-10 19:56:45 [] INFO 
+                    o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-10 19:56:45 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2025-01-10 19:56:45 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 3000 (http) with context path '/api/v1'
+2025-01-10 19:56:45 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Started JavaLearnApplication in 2.237 seconds (process running for 2.478)
+2025-01-10 19:56:45 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-10 19:56:45 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-10 19:56:45 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-10 19:56:49 [] INFO 
+                    c.h.j.config.LoggingRequestConfig - REQUEST [d0337479-e14c-4ade-98d7-fba3a3e873f3] POST /api/v1/ping
+- Headers: {content-length=12, postman-token=0db11893-f0c9-4401-9c0a-a494ebe5516d, host=127.0.0.1:3000, content-type=application/json, connection=keep-alive, cache-control=no-cache, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.43.0, accept=*/*}
+- Parameters: {}
+- Body: {
+	"a": ""
+}
+2025-01-10 19:56:49 [] INFO 
+                    c.h.j.config.LoggingRequestConfig - RESPONSE [d0337479-e14c-4ade-98d7-fba3a3e873f3] (0 ms): {"status":200,"code":"000","message":"SUCCESS","error":null,"data":"Pong!!!"}
+2025-01-10 19:57:12 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-10 19:57:12 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-10 19:57:12 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 19:57:12 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown initiated...
+2025-01-10 19:57:12 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown completed.
+2025-01-10 19:57:14 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Starting JavaLearnApplication using Java 21.0.4 with PID 13420 (/Volumes/hduong25/Study/Java/java-learn/target/classes started by hongduongdo in /Volumes/hduong25/Study/Java/java-learn)
+2025-01-10 19:57:14 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - The following 1 profile is active: "dev"
+2025-01-10 19:57:14 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-10 19:57:14 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2025-01-10 19:57:15 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 3000 (http)
+2025-01-10 19:57:15 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2025-01-10 19:57:15 [] INFO 
+                    o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-10 19:57:15 [] INFO 
+                    o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-10 19:57:15 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-01-10 19:57:15 [] INFO 
+                    o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 700 ms
+2025-01-10 19:57:15 [] INFO 
+                    o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-10 19:57:15 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Starting...
+2025-01-10 19:57:15 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Start completed.
+2025-01-10 19:57:15 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 19:57:15 [] WARN 
+                    o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-10 19:57:16 [] INFO 
+                    o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-10 19:57:16 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2025-01-10 19:57:16 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 3000 (http) with context path '/api/v1'
+2025-01-10 19:57:16 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Started JavaLearnApplication in 2.674 seconds (process running for 2.934)
+2025-01-10 19:57:16 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-10 19:57:16 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-10 19:57:17 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-10 19:57:22 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-10 19:57:22 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-10 19:57:22 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 19:57:22 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown initiated...
+2025-01-10 19:57:22 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown completed.
+2025-01-10 19:57:24 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Starting JavaLearnApplication using Java 21.0.4 with PID 13433 (/Volumes/hduong25/Study/Java/java-learn/target/classes started by hongduongdo in /Volumes/hduong25/Study/Java/java-learn)
+2025-01-10 19:57:24 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - The following 1 profile is active: "dev"
+2025-01-10 19:57:24 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-10 19:57:24 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2025-01-10 19:57:25 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 3000 (http)
+2025-01-10 19:57:25 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2025-01-10 19:57:25 [] INFO 
+                    o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-10 19:57:25 [] INFO 
+                    o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-10 19:57:25 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-01-10 19:57:25 [] INFO 
+                    o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 706 ms
+2025-01-10 19:57:25 [] INFO 
+                    o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-10 19:57:25 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Starting...
+2025-01-10 19:57:25 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Start completed.
+2025-01-10 19:57:25 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 19:57:25 [] WARN 
+                    o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-10 19:57:26 [] INFO 
+                    o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-10 19:57:26 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2025-01-10 19:57:26 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 3000 (http) with context path '/api/v1'
+2025-01-10 19:57:26 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Started JavaLearnApplication in 2.467 seconds (process running for 2.706)
+2025-01-10 19:57:27 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-10 19:57:27 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-10 19:57:27 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-01-10 19:57:35 [] INFO 
+                    c.h.j.config.LoggingRequestConfig - REQUEST [7a57557a-6de2-4321-a1db-044da830a27d] POST /api/v1/ping
+- Headers: {content-length=12, postman-token=ca35a58d-3187-4605-b39b-88c930fe1290, host=127.0.0.1:3000, content-type=application/json, connection=keep-alive, cache-control=no-cache, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.43.0, accept=*/*}
+- Parameters: org.apache.catalina.util.ParameterMap@44b17f7
+- Body: {
+	"a": ""
+}
+2025-01-10 19:57:35 [] INFO 
+                    c.h.j.config.LoggingRequestConfig - RESPONSE [7a57557a-6de2-4321-a1db-044da830a27d] (1 ms): com.hduong25.javalearn.utils.result.Result@dfb99b5
+2025-01-10 19:57:54 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-10 19:57:54 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-10 19:57:54 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 19:57:54 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown initiated...
+2025-01-10 19:57:54 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown completed.
+2025-01-10 19:57:56 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Starting JavaLearnApplication using Java 21.0.4 with PID 13451 (/Volumes/hduong25/Study/Java/java-learn/target/classes started by hongduongdo in /Volumes/hduong25/Study/Java/java-learn)
+2025-01-10 19:57:56 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - The following 1 profile is active: "dev"
+2025-01-10 19:57:56 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-10 19:57:56 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2025-01-10 19:57:56 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 3000 (http)
+2025-01-10 19:57:56 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2025-01-10 19:57:56 [] INFO 
+                    o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-10 19:57:56 [] INFO 
+                    o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-10 19:57:56 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-01-10 19:57:56 [] INFO 
+                    o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 735 ms
+2025-01-10 19:57:57 [] INFO 
+                    o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-10 19:57:57 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Starting...
+2025-01-10 19:57:57 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Start completed.
+2025-01-10 19:57:57 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 19:57:57 [] WARN 
+                    o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-10 19:57:57 [] INFO 
+                    o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-10 19:57:58 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2025-01-10 19:57:58 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 3000 (http) with context path '/api/v1'
+2025-01-10 19:57:58 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Started JavaLearnApplication in 2.534 seconds (process running for 2.776)
+2025-01-10 19:57:58 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-10 19:57:58 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-10 19:57:58 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-10 19:58:30 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-10 19:58:30 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-10 19:58:30 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 19:58:30 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown initiated...
+2025-01-10 19:58:30 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown completed.
+2025-01-10 19:58:32 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Starting JavaLearnApplication using Java 21.0.4 with PID 13478 (/Volumes/hduong25/Study/Java/java-learn/target/classes started by hongduongdo in /Volumes/hduong25/Study/Java/java-learn)
+2025-01-10 19:58:32 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - The following 1 profile is active: "dev"
+2025-01-10 19:58:32 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-10 19:58:32 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2025-01-10 19:58:32 [] WARN 
+                    o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'objectMapperConfig' defined in class path resource [com/hduong25/javalearn/config/ObjectMapperConfig.class]: Cannot register bean definition [Root bean: class=null; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=objectMapperConfig; factoryMethodName=objectMapperConfig; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/hduong25/javalearn/config/ObjectMapperConfig.class]] for bean 'objectMapperConfig' since there is already [Generic bean: class=com.hduong25.javalearn.config.ObjectMapperConfig; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in file [/Volumes/hduong25/Study/Java/java-learn/target/classes/com/hduong25/javalearn/config/ObjectMapperConfig.class]] bound.
+2025-01-10 19:58:32 [] INFO 
+                    o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-01-10 19:58:32 [] ERROR
+                    o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'objectMapperConfig', defined in class path resource [com/hduong25/javalearn/config/ObjectMapperConfig.class], could not be registered. A bean with that name has already been defined in file [/Volumes/hduong25/Study/Java/java-learn/target/classes/com/hduong25/javalearn/config/ObjectMapperConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-01-10 19:59:30 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Starting JavaLearnApplication using Java 21.0.4 with PID 13516 (/Volumes/hduong25/Study/Java/java-learn/target/classes started by hongduongdo in /Volumes/hduong25/Study/Java/java-learn)
+2025-01-10 19:59:30 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - The following 1 profile is active: "dev"
+2025-01-10 19:59:30 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-10 19:59:30 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2025-01-10 19:59:30 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 3000 (http)
+2025-01-10 19:59:30 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2025-01-10 19:59:30 [] INFO 
+                    o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-10 19:59:30 [] INFO 
+                    o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-10 19:59:30 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-01-10 19:59:30 [] INFO 
+                    o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 726 ms
+2025-01-10 19:59:31 [] INFO 
+                    o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-10 19:59:31 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Starting...
+2025-01-10 19:59:31 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Start completed.
+2025-01-10 19:59:31 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 19:59:31 [] WARN 
+                    o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-10 19:59:32 [] INFO 
+                    o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-10 19:59:32 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2025-01-10 19:59:32 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 3000 (http) with context path '/api/v1'
+2025-01-10 19:59:32 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Started JavaLearnApplication in 2.709 seconds (process running for 2.95)
+2025-01-10 19:59:32 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-10 19:59:32 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-10 19:59:32 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-10 19:59:46 [] INFO 
+                    c.h.j.config.LoggingRequestConfig - REQUEST [1ecfd070-69eb-4c17-baf9-1a829c22896b] POST /api/v1/ping
+- Headers: {content-length=12, postman-token=b8559141-dc48-489a-b34d-baeef73527e3, host=127.0.0.1:3000, content-type=application/json, connection=keep-alive, cache-control=no-cache, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.43.0, accept=*/*}
+- Parameters: {}
+- Body: {
+	"a": ""
+}
+2025-01-10 19:59:46 [] INFO 
+                    c.h.j.config.LoggingRequestConfig - RESPONSE [1ecfd070-69eb-4c17-baf9-1a829c22896b] (1 ms): {"status":200,"code":"000","message":"SUCCESS","error":null,"data":"Pong!!!"}
+2025-01-10 20:01:03 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-10 20:01:03 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-10 20:01:03 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 20:01:03 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown initiated...
+2025-01-10 20:01:03 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown completed.
+2025-01-10 20:01:05 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Starting JavaLearnApplication using Java 21.0.4 with PID 13571 (/Volumes/hduong25/Study/Java/java-learn/target/classes started by hongduongdo in /Volumes/hduong25/Study/Java/java-learn)
+2025-01-10 20:01:05 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - The following 1 profile is active: "dev"
+2025-01-10 20:01:05 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-10 20:01:05 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2025-01-10 20:01:06 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 3000 (http)
+2025-01-10 20:01:06 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2025-01-10 20:01:06 [] INFO 
+                    o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-10 20:01:06 [] INFO 
+                    o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-10 20:01:06 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-01-10 20:01:06 [] INFO 
+                    o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 700 ms
+2025-01-10 20:01:06 [] INFO 
+                    o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-10 20:01:06 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Starting...
+2025-01-10 20:01:06 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Start completed.
+2025-01-10 20:01:06 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 20:01:06 [] WARN 
+                    o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-10 20:01:07 [] INFO 
+                    o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-10 20:01:07 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2025-01-10 20:01:07 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 3000 (http) with context path '/api/v1'
+2025-01-10 20:01:07 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Started JavaLearnApplication in 2.41 seconds (process running for 2.64)
+2025-01-10 20:01:08 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-10 20:01:08 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-10 20:01:08 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-10 20:01:10 [] INFO 
+                    c.h.j.config.LoggingRequestConfig - REQUEST [1f1ce734-57ac-401d-8e80-834a875d4dfe] POST /api/v1/ping
+- Headers: {content-length=12, postman-token=b4f032f1-4ae9-4bce-ba0b-a9544805217f, host=127.0.0.1:3000, content-type=application/json, connection=keep-alive, cache-control=no-cache, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.43.0, accept=*/*}
+- Parameters: {}
+- Body: {
+	"a": ""
+}
+- Time request: 2025-01-10T20:01:10.581862
+2025-01-10 20:01:10 [] INFO 
+                    c.h.j.config.LoggingRequestConfig - RESPONSE [1f1ce734-57ac-401d-8e80-834a875d4dfe] (0 ms): {"status":200,"code":"000","message":"SUCCESS","error":null,"data":"Pong!!!"}
+2025-01-10 20:01:44 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-10 20:01:44 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-10 20:01:45 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 20:01:45 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown initiated...
+2025-01-10 20:01:45 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown completed.
+2025-01-10 20:01:46 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Starting JavaLearnApplication using Java 21.0.4 with PID 13592 (/Volumes/hduong25/Study/Java/java-learn/target/classes started by hongduongdo in /Volumes/hduong25/Study/Java/java-learn)
+2025-01-10 20:01:46 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - The following 1 profile is active: "dev"
+2025-01-10 20:01:47 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-10 20:01:47 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2025-01-10 20:01:47 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 3000 (http)
+2025-01-10 20:01:47 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2025-01-10 20:01:47 [] INFO 
+                    o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-10 20:01:47 [] INFO 
+                    o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-10 20:01:47 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-01-10 20:01:47 [] INFO 
+                    o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 689 ms
+2025-01-10 20:01:47 [] INFO 
+                    o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-10 20:01:47 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Starting...
+2025-01-10 20:01:47 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Start completed.
+2025-01-10 20:01:48 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 20:01:48 [] WARN 
+                    o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-10 20:01:48 [] INFO 
+                    o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-10 20:01:49 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2025-01-10 20:01:49 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 3000 (http) with context path '/api/v1'
+2025-01-10 20:01:49 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Started JavaLearnApplication in 2.413 seconds (process running for 2.643)
+2025-01-10 20:01:49 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-10 20:01:49 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-10 20:01:49 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-10 20:01:59 [] INFO 
+                    c.h.j.config.LoggingRequestConfig - REQUEST [df7c5ab6-8c96-498b-afd5-e28ab749d1c0] POST /api/v1/ping
+- Time request: 2025-01-10T20:01:59.169921
+- Headers: {content-length=12, postman-token=9515e6b5-3da8-493b-9189-fb7b8e15e47c, host=127.0.0.1:3000, content-type=application/json, connection=keep-alive, cache-control=no-cache, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.43.0, accept=*/*}
+- Parameters: {}
+- Body: {
+	"a": ""
+}
+2025-01-10 20:01:59 [] INFO 
+                    c.h.j.config.LoggingRequestConfig - RESPONSE [df7c5ab6-8c96-498b-afd5-e28ab749d1c0] (1 ms): {"status":200,"code":"000","message":"SUCCESS","error":null,"data":"Pong!!!"}
+2025-01-10 20:16:11 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-10 20:16:11 [] INFO 
+                    o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-01-10 20:16:11 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 20:16:11 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown initiated...
+2025-01-10 20:16:11 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Shutdown completed.
+2025-01-10 20:16:13 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Starting JavaLearnApplication using Java 21.0.4 with PID 13849 (/Volumes/hduong25/Study/Java/java-learn/target/classes started by hongduongdo in /Volumes/hduong25/Study/Java/java-learn)
+2025-01-10 20:16:13 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - The following 1 profile is active: "dev"
+2025-01-10 20:16:13 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-10 20:16:13 [] INFO 
+                    o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2025-01-10 20:16:13 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 3000 (http)
+2025-01-10 20:16:13 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+2025-01-10 20:16:13 [] INFO 
+                    o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-10 20:16:13 [] INFO 
+                    o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-10 20:16:13 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-01-10 20:16:13 [] INFO 
+                    o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 734 ms
+2025-01-10 20:16:14 [] INFO 
+                    o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-10 20:16:14 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Starting...
+2025-01-10 20:16:14 [] INFO 
+                    com.zaxxer.hikari.HikariDataSource - DatabasePool - Start completed.
+2025-01-10 20:16:14 [] INFO 
+                    o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'primaryDataSource'
+2025-01-10 20:16:14 [] WARN 
+                    o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-10 20:16:14 [] INFO 
+                    o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-01-10 20:16:15 [] INFO 
+                    o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+2025-01-10 20:16:15 [] INFO 
+                    o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 3000 (http) with context path '/api/v1'
+2025-01-10 20:16:15 [] INFO 
+                    c.h.javalearn.JavaLearnApplication - Started JavaLearnApplication in 2.782 seconds (process running for 3.015)
+2025-01-10 20:16:15 [] INFO 
+                    o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-10 20:16:15 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-10 20:16:15 [] INFO 
+                    o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-10 20:16:22 [] INFO 
+                    c.h.j.config.LoggingRequestConfig - REQUEST [7939bfb7-59a7-4bf1-98d7-c12d427e31e6] POST /api/v1/ping
+- Time request: 2025-01-10T20:16:22.228893
+- Headers: {content-length=12, postman-token=7f50c375-3a84-46a2-9363-989ad94e42c7, host=127.0.0.1:3000, content-type=application/json, connection=keep-alive, cache-control=no-cache, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.43.0, accept=*/*}
+- Parameters: {}
+- Body: {
+	"a": ""
+}
+2025-01-10 20:16:22 [] INFO 
+                    c.h.j.config.LoggingRequestConfig - RESPONSE [7939bfb7-59a7-4bf1-98d7-c12d427e31e6] (1 ms): {"status":200,"code":"000","message":"SUCCESS","error":null,"data":"Pong!!!"}
