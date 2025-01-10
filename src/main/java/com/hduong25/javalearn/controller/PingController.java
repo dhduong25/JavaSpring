@@ -24,4 +24,5 @@ public class PingController {
     public Result<String> ping() {
         return this.pingService.pingApp();
     }
+
 }
