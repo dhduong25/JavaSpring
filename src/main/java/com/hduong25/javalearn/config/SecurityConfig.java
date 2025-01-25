@@ -2,8 +2,16 @@ package com.hduong25.javalearn.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
+import org.springframework.security.core.userdetails.User;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
 
 /**
@@ -11,6 +19,8 @@ import org.springframework.security.web.SecurityFilterChain;
  * Lớp cấu hình bảo mật (Spring Security) dùng để thiết lập các cấu hình bảo mật cho ứng dụng.
  */
 @Configuration
+@EnableWebSecurity
+@EnableMethodSecurity(jsr250Enabled = true)
 public class SecurityConfig {
 
     private final CustomCorsConfig customCorsConfigCustom;
@@ -36,12 +46,22 @@ public class SecurityConfig {
         // Bỏ kích hoạt CSRF (Cross-Site Request Forgery)
         // Thường được sử dụng khi xây dựng các API không trạng thái (stateless)
         // hoặc khi CSRF được quản lý theo cách tùy chỉnh.
+        httpSecurity.formLogin(form -> form.loginProcessingUrl("/login"));
+
         httpSecurity.csrf(AbstractHttpConfigurer::disable)
                 // Cấu hình các quy tắc ủy quyền
                 .authorizeHttpRequests(req ->
                         // Cho phép tất cả các yêu cầu được truy cập mà không cần xác thực
                         // Thay permitAll() -> authenticated() để yêu cầu xác thực
-                        req.anyRequest().permitAll()
+                        // req.anyRequest().permitAll()
+
+                        req.requestMatchers(
+                                        "/api/v1/auth/login",
+                                        "api/v1/auth/register"
+                                )
+                                .permitAll()
+                                .anyRequest()
+                                .authenticated()
                 )
                 // Cấu hình CORS bằng cách sử dụng cấu hình CORS tùy chỉnh
                 .cors(cors -> cors.configurationSource(customCorsConfigCustom));
@@ -50,4 +70,19 @@ public class SecurityConfig {
         return httpSecurity.build();
     }
 
+    @Bean
+    public UserDetailsService userDetailsService() {
+        UserDetails admin = User
+                .withUsername("admin")
+                .password(passwordEncoder().encode("123"))
+                .authorities("auth_read", "auth_write")
+                .build();
+
+        return new InMemoryUserDetailsManager(admin);
+    }
+
+    @Bean
+    public PasswordEncoder passwordEncoder() {
+        return new BCryptPasswordEncoder();
+    }
 }

@@ -3,15 +3,11 @@ package com.hduong25.javalearn.utils.enums;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
-/**
- * @author: hduong25
- */
-
 @Getter
 @AllArgsConstructor
-public enum StatusEnum implements InterfaceEnum {
-    ACTIVE("Hoạt động", "Trạng thái hoạt động"),
-    INACTIVE("Không hoạt động", "Trạng thái không hoạt động");
+public enum RoleEnums implements InterfaceEnum {
+    ADMIN("ADMIN", "Quan tri vien"),
+    EMPLOYEE("EMPLOYEE", "Nhan vien");
 
     private final String code;
     private final String message;
