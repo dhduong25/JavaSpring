@@ -2,7 +2,6 @@ package com.hduong25.javalearn.controller;
 
 import com.hduong25.javalearn.utils.result.Result;
 import com.hduong25.javalearn.utils.result.ResultUtils;
-import org.springframework.security.access.prepost.PostAuthorize;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -13,7 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("auth/")
-@PostAuthorize("hasAnyAuthority(s)")
 public class AuthController {
 
     @GetMapping("login")
