@@ -1,16 +1,16 @@
 package com.hduong25.javalearn.config;
 
-import jakarta.servlet.http.HttpServletRequest;
+import java.util.List;
+
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 
-import java.util.List;
+import jakarta.servlet.http.HttpServletRequest;
 
 /**
  * @author: hduong25
  */
-
 @Configuration
 public class CustomCorsConfig implements CorsConfigurationSource {
 
