@@ -1,4 +1,4 @@
-package com.hduong25.javalearn.service;
+package com.hduong25.javalearn.modules.ping;
 
 import com.hduong25.javalearn.utils.result.Result;
 

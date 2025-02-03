@@ -70,10 +70,6 @@
                <artifactId>spring-boot-starter-actuator</artifactId>
           </dependency>
           <dependency>
-               <groupId>org.springframework.boot</groupId>
-               <artifactId>spring-boot-starter-actuator</artifactId>
-          </dependency>
-          <dependency>
                <groupId>org.springframework.data</groupId>
                <artifactId>spring-data-jpa</artifactId>
                <version>3.4.1</version>
@@ -129,10 +125,10 @@
                <artifactId>commons-lang3</artifactId>
                <version>3.12.0</version>
           </dependency>
-          <!--          <dependency>-->
-          <!--               <groupId>org.springframework.boot</groupId>-->
-          <!--               <artifactId>spring-boot-starter-data-elasticsearch</artifactId>-->
-          <!--          </dependency>-->
+<!--          <dependency>-->
+<!--               <groupId>org.springframework.boot</groupId>-->
+<!--               <artifactId>spring-boot-starter-data-elasticsearch</artifactId>-->
+<!--          </dependency>-->
      </dependencies>
 
      <build>
@@ -164,5 +160,4 @@
                </plugin>
           </plugins>
      </build>
-
 </project>

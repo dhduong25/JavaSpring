@@ -1,6 +1,5 @@
-package com.hduong25.javalearn.controller;
+package com.hduong25.javalearn.modules.ping;
 
-import com.hduong25.javalearn.service.PingService;
 import com.hduong25.javalearn.utils.result.Result;
 import lombok.RequiredArgsConstructor;
 import org.springframework.validation.annotation.Validated;

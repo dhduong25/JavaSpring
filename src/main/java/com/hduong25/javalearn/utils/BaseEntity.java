@@ -1,4 +1,4 @@
-package com.hduong25.javalearn.model.entity;
+package com.hduong25.javalearn.utils;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.EntityListeners;

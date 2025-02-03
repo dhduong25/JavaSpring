@@ -1,5 +1,6 @@
-package com.hduong25.javalearn.model.entity;
+package com.hduong25.javalearn.modules.user;
 
+import com.hduong25.javalearn.utils.BaseEntity;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -13,7 +14,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * @author: hduong
+ * @author: hduong25
  */
 
 @Getter
