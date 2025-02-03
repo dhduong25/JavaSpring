@@ -5,5 +5,4 @@ package com.hduong25.javalearn.modules.auth;
  */
 
 public interface AuthRepository {
-
 }
