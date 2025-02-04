@@ -66,6 +66,7 @@ public class SecurityConfig {
 
                         req.requestMatchers(
                                         "ping",
+                                        "ping/2",
                                         "/auth/login",
                                         "/auth/register"
                                 ).permitAll()

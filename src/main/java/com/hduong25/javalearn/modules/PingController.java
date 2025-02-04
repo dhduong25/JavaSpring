@@ -1,6 +1,7 @@
-package com.hduong25.javalearn.modules.ping;
+package com.hduong25.javalearn.modules;
 
 import com.hduong25.javalearn.utils.response.SuccessResponse;
+import com.hduong25.javalearn.utils.result.ResponseUtils;
 import com.hduong25.javalearn.utils.result.Result;
 import com.hduong25.javalearn.utils.result.ResultUtils;
 import lombok.RequiredArgsConstructor;
@@ -22,5 +23,10 @@ public class PingController {
     @PostMapping
     public Result<String> ping() {
         return ResultUtils.success(SuccessResponse.PING_SUCCESS);
+    }
+
+    @PostMapping("/2")
+    public ResponseUtils<String> ping2() {
+        return ResponseUtils.ok(SuccessResponse.PING_SUCCESS.message());
     }
 }

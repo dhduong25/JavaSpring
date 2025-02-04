@@ -4,15 +4,14 @@ import com.hduong25.javalearn.utils.constants.AppConstants;
 import com.hduong25.javalearn.utils.constants.HttpStatusConstants;
 import com.hduong25.javalearn.utils.response.BaseEnumResponseCode;
 import com.hduong25.javalearn.utils.response.ErrorResponse;
+import lombok.experimental.UtilityClass;
 
 /**
  * @author: hduong25
  */
 
+@UtilityClass
 public class ResultUtils {
-
-    private ResultUtils() {
-    }
 
     // Success
     public static <T> Result<T> success(T data) {
