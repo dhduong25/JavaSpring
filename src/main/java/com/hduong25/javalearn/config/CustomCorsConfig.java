@@ -26,5 +26,4 @@ public class CustomCorsConfig implements CorsConfigurationSource {
 
         return configuration;
     }
-
 }
