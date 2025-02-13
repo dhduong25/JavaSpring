@@ -52,11 +52,13 @@ import jakarta.persistence.EntityManagerFactory;
         basePackages = {"com.hduong25.javalearn"})
 public class DataSourceConfig {
 
+    public static final String DATASOURCE_PREFIX = "spring.datasource";
+
     /// Tiền tố để đọc cấu hình cho DataSource từ file cấu hình.
-    public static final String DATASOURCE_PROPERTIES_PREFIX = "spring.datasource.learn-java";
+    public static final String DATASOURCE_PROPERTIES_PREFIX = DATASOURCE_PREFIX + ".learn-java";
 
     /// Tiền tố để đọc cấu hình cho HikariCP (connection pool).
-    public static final String DATASOURCE_PROPERTIES_HIKARI_PREFIX = DATASOURCE_PROPERTIES_PREFIX + ".hikari";
+    public static final String DATASOURCE_PROPERTIES_HIKARI_PREFIX = DATASOURCE_PREFIX + ".hikari";
 
     /// Tên bean DataSourceProperties.
     public static final String DATASOURCE_PROPERTIES_NAME = "primaryProperties";
